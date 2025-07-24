@@ -4,7 +4,7 @@ import os
 sys.path.append('/C:/Course/Language/python-course-assignments/day09/digit_counter')
 
 try:
-    from digit_counter import count_digits, count_digits_silent
+    from test_digit_counter import count_digits, count_digits_silent
 except ModuleNotFoundError:
     print("Error: Cannot find digit_counter module.")
     print("Make sure digit_counter.py is in the same directory as this script.")
